@@ -5,7 +5,7 @@
 		<% end %>
 		<div class="caption">
 			<p><strong><%= link_to book.name, book_path(book) %></strong></p>
-			<p><%= number_to_currency(book.price/100) %></p>
+			<p><%= number_to_currency(book.price.to_f/100) %></p>
 		</div>
 	</div>
 </div>
