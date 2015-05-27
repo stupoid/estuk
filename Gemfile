@@ -54,3 +54,5 @@ gem 'devise'
 gem 'cancan'
 
 gem 'paperclip'
+
+gem 'aws-sdk', '< 2.0'
